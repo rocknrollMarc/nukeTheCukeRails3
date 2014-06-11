@@ -30,6 +30,9 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
 end
+
+gem 'bcrypt'
+
 group :test do
   gem 'capybara'
   gem 'cucumber-rails', :require=>false
