@@ -8,6 +8,7 @@ group :assets do
 end
 gem 'jquery-rails'
 gem 'figaro'
+gem 'devise'
 gem 'mongoid'
 gem 'omniauth'
 gem 'omniauth-twitter'
