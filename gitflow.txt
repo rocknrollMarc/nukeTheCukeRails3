@@ -1,0 +1,23 @@
+Hey Michael
+
+just playing around with gitflow
+
+So heres what I found out:
+
+You start with git flow init.....then it askes you for the names but the defaults are cool as we want a dev branch
+
+then when you start a feature you go:
+
+  git flow feature start <featurename>
+
+  then when you are ready to share:
+
+  git flow feature publish <featurename>
+
+  when you are ready to merge the branch and are finnished :
+
+    git flow feature finish <featurename>
+
+    the thing is it actualy deletes the branch when its merges it into the dev branch. which I think is a bit of a bummer.
+
+
