@@ -21,7 +21,7 @@ module NukeTheCukeRails3
     # don't generate RSpec tests for views and helpers
     config.generators do |g|
       
-      g.orm :mongo_mapper
+      g.orm :mongoid
       g.template_engine :erb
       g.test_framework :rspec, fixture: true
       g.fixture_replacement :factory_girl, dir: 'spec/factories'
