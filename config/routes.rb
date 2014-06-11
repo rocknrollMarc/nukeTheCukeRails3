@@ -1,4 +1,6 @@
 NukeTheCukeRails3::Application.routes.draw do
+  resources :features
+
   root :to => "home#index"
   resources :users, :only => [:index, :show, :edit, :update ]
   match '/auth/:provider/callback' => 'sessions#create'
