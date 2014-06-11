@@ -1,4 +1,6 @@
 NukeTheCukeRails3::Application.routes.draw do
+  resources :scenarios
+
   resources :features
 
   root :to => "home#index"
