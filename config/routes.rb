@@ -1,4 +1,6 @@
 NukeTheCukeRails3::Application.routes.draw do
+  resources :steps
+
   resources :scenarios
 
   resources :features
